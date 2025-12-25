@@ -1,4 +1,4 @@
-# UVM_Verification_of_Combinational_Adder
+# UVM_Verification_of_Sequential_Adder
 This repo shows the verification of a 4-bit sequential adder using Universal Verification Methodology(UVM)
 
 ## Code
