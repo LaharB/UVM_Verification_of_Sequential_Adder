@@ -25,7 +25,7 @@ endmodule
 
 //////////////////////////////////////////////////////////
 
-interface adder_if();
+interface adder_if(); 
   
   logic clk;
   logic rst;
@@ -311,7 +311,7 @@ endclass
 module tb;
  
 //tb contains test, interface and DUT
-  adder_if aif(); //have to add parenthesis for interface instance
+  adder_if aif(); //have to add parenthesis for interface instance inside tb
   adder dut(.clk(aif.clk), .rst(aif.rst), .a(aif.a), .b(aif.b), .y(aif.y)); //connection DUT and test class thorugh interface 
   //we dont need to create a test class ,, use run_test
   
